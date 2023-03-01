@@ -5,7 +5,7 @@ public class Equipo {
     private Integer id;
     private String nombre;
     private String categoria;
-    private Jugador jugador;
+    private int jugadores;
 
     public Integer getId() {
         return id;
@@ -31,11 +31,11 @@ public class Equipo {
         this.categoria = categoria;
     }
 
-    public Jugador getJugador() {
-        return jugador;
+    public int getJugador() {
+        return jugadores;
     }
 
-    public void setJugador(Jugador jugador) {
-        this.jugador = jugador;
+    public void setJugador(int jugadores) {
+        this.jugadores = jugadores;
     }
 }

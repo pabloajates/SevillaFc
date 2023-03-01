@@ -1,6 +1,6 @@
 package com.pajates.sevillaFC.domain.models;
 
-public class Arbitros extends Persona{
+public class Arbitro extends Persona{
 
     private String categoria;
 
