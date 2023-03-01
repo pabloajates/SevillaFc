@@ -1,1 +1,6 @@
 /.idea/.gitignore
+/.idea/
+/out/production/SevillaFc/com/pajates/sevillaFC/
+/equipos.txt
+/partidos.txt
+/arbitros.txt
